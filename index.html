@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a7436daf27.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+    <title>Lalus page</title>
+</head>
+<body>
+    <section class="hero-sec">
+        <div class="hero-text">
+            <h1>Welcome to Paradise Hotel
+            </h1>
+            <p style="margin: 10px 0px;">We provide at a very good prce along with great amenities to make your living experience awesome</p>
+            <button class="book-button">Book</button>
+        </div>
+    </section>
+    <h1 class="about-heading">About us</h1>
+    <section class="about-sec">
+        
+        <div class="aboutus">
+            <p>Looking for a vacation to leave behind the hustle of everyday life and indulge in world-class hospitablilithy
+                at exotic locations? Look no further than the leading & fastest growing hotel chain of Eastern India. Hotel Paradise, your unwinding days with us will be the perfect blend of leisure, comfort, convenience & class.
+            </p>
+            <br>
+            <p>We are currentl present at Puri, Mandarmoni, Kolghat, Tarapith, Darjeeling, Taki & Sundarban to make your well deserved vacation a truly unforgettable affair.</p>
+            <button class="know-button">Know More</button>
+        </div>
+        <div class="amenities">
+            <h3>Amenities We have:</h3>
+            <ul>
+                <li><i class="fa-duotone fa-solid fa-wifi"></i>High Speed internet</li>
+                <li><i class="fa-solid fa-bowl-food"></i>Complementary Breakfast</li>
+                <li><i class="fa-solid fa-person-swimming"></i>Swimming Pool</li>
+                <li><i class="fa-solid fa-dumbbell"></i>Gym</li>
+                <li><i class="fa-solid fa-mug-saucer"></i>Cafeteria</li>
+            </ul>
+        </div>
+    </section>
+    <h1 class="room-heading">Room Types</h1>
+    <section class="room-type-container">
+        <div class="room-images">
+            <img src="room.jpg" alt="room-image">
+        </div>
+        <div class="room-list">
+            <h4>Single Occupency Room</h3>
+                <p>Single room occupancy (SRO) is a type of rental housing that consists of small, furnished rooms that are shared with communal facilities like bathrooms and kitchens.</p>
+            <h4>Family Room</h3>
+                <p>A family room that's 12 ft by 18 ft can comfortably accommodate a family of six to ten people, depending on the furniture. However, the ideal floor plan for your family room can be customized to suit your needs and family size</p>
+            <h4>Duplex Room</h3>
+                <p>It's a two-level room. It consists of at least one bedroom on one floor and a living room or bedroom on the second floor. You can also find more bedrooms on any of the floors.
+
+                    These types of rooms are commonly chosen by families with small children who go to bed much earlier, and thanks to two levels they are provided with more comfort and silence.</p>
+        </div>
+        
+    </section>
+    <div class="help-button">
+        <h4>Need Help?</h4>
+    </div>
+    <h2 class="form-heading">Fill the form for booking room</h2>
+    <section class="form-container">
+        <form>
+            <div class="form-group">
+                <label for="name">Enter your full name:</label><br>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Enter Email:</label><br>
+                <input type="text" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="booking-date">Date of Booking:</label><br>
+                <input type="date" id="booking-date" required>
+            </div>
+            <div class="form-group">
+                <label for="room-type">Select Room Type:</label><br>
+                <select name="room-type" id="room-type" required>
+                    <option value="" selected disabled>Select....</option>
+                    <option value="single room">Single Room</option>
+                    <option value="family room">Family Room</option>
+                    <option value="duplex room">Duplex Room</option>
+                </select>
+            </div>
+            <input type="submit" value="Book">
+        </form>
+        
+    </section>
+</body>
+</html>
